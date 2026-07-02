@@ -1,0 +1,12 @@
+streamlit
+transformers
+langchain
+langchain-community
+langchain-openai
+sentence-transformers
+faiss-cpu
+beautifulsoup4
+pandas
+matplotlib
+plotly
+requests

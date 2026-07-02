@@ -1,0 +1,15 @@
+# Credentials and secrets
+.env
+__pycache__/
+*.pyc
+
+# Heavy ML Binaries (Decouple weights from git)
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.zip
+
+# Local virtual environments
+venv/
+.streamlit/secrets.toml
