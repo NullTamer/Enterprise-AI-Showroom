@@ -146,7 +146,6 @@ st.sidebar.markdown(
     """,
     unsafe_allow_html=True
 )
-)
 
 # ==============================================================================
 # MODULE 1: SECURE KNOWLEDGE GROUNDING (ADVANCED RAG)
