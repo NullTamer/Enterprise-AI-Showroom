@@ -116,6 +116,38 @@ else:
     reload_clicked = False
     ingest_urls_raw = ""
 
+st.sidebar.markdown("---")
+st.sidebar.markdown(
+    """
+    <style>
+        /* Forces the sidebar widget container to stick smoothly at the bottom */
+        [data-testid="stSidebarUserContent"] {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .sticky-footer {
+            margin-top: auto;
+            padding: 12px;
+            border-radius: 6px;
+            background-color: rgba(151, 151, 151, 0.08);
+            border-left: 4px solid #4CAF50;
+        }
+    </style>
+    
+    <div class="sticky-footer">
+        <p style='margin: 0; font-size: 0.8rem; color: #888888; text-transform: uppercase; letter-spacing: 0.5px;'>Architected by</p>
+        <strong style='font-size: 1.05rem; color: #ffffff;'>Adrian Lo</strong>
+        <p style='margin-top: 6px; margin-bottom: 0; font-size: 0.75rem; color: #aaaaaa; line-height: 1.4;'>
+            💡 Data Science & AI Engineering<br>
+            🔗 <a href="https://github.com/NullTamer" target="_blank" style="color: #4CAF50; text-decoration: none; font-weight: bold;">GitHub Portfolio</a>
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+)
+
 # ==============================================================================
 # MODULE 1: SECURE KNOWLEDGE GROUNDING (ADVANCED RAG)
 # ==============================================================================
